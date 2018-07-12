@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    background: #333333;
+
+}
+
+.box {
+    display: inline-block;
+    margin: 50px 0;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #FFFFFF;
+}
+
+.label {
+    display: block;
+    position: absolute;
+
+}
+
+.label-blue {
+    width: 100px;
+    height: 100px;
+    background-color: #1565c0;
+    margin: 50px;
+    top: 0;
+    left: 0;
+}
+
+.label-green {
+    width: 100px;
+    height: 100px;
+    background-color: #2e7d32;
+    margin: 50px;
+    top: 0;
+    right: 0;
+}
+
+.label-red {
+    width: 100px;
+    height: 100px;
+    background-color: #c2185b;
+    margin: 50px;
+    bottom: 0;
+    left: 0;
+}
+
+.label-yellow {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9900;
+    margin: 50px;
+    bottom: 0;
+    right: 0;
+}
