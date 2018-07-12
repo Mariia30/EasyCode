@@ -1,0 +1,52 @@
+body {
+    background-color: #333333;
+    text-align: center;
+}
+
+.box {
+    display: block;
+    margin: 50px auto;
+    position: relative;
+    width: 400px;
+    background: #FFFFFF;
+}
+
+.box:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.label {
+    display: block;
+    float: left;
+}
+
+.label-blue {
+    width: 100px;
+    height: 100px;
+    background-color: #1565c0;
+    margin: 50px;
+}
+
+.label-green {
+    width: 100px;
+    height: 100px;
+    background-color: #2e7d32;
+    margin: 50px;
+
+}
+
+.label-red {
+    width: 100px;
+    height: 100px;
+    background-color: #c2185b;
+    margin: 50px;
+
+}
+
+.label-yellow {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9900;
+    margin: 50px;
