@@ -6,7 +6,6 @@ body {
     text-align: center;
     background: #333333;
     height: 100%;
-
 }
 
 .main {
@@ -14,14 +13,11 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-
 }
 
 .box {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    position: relative;
     width: 400px;
     height: 400px;
     background: #FFFFFF;
@@ -29,36 +25,26 @@ body {
 
 .label {
     display: block;
+    width: 100px;
+    height: 100px;
 }
 
 .label-blue {
-    width: 100px;
-    height: 100px;
     background-color: #1565c0;
     margin: 50px;
-
 }
 
 .label-green {
-    width: 100px;
-    height: 100px;
     background-color: #2e7d32;
     margin: 50px;
-
 }
 
 .label-red {
-    width: 100px;
-    height: 100px;
     background-color: #c2185b;
     margin: 50px;
-
 }
 
 .label-yellow {
-    width: 100px;
-    height: 100px;
     background-color: #ff9900;
     margin: 50px;
-
 }
