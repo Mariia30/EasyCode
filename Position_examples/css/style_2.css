@@ -1,5 +1,30 @@
-h1, h2, h3 {
+.text {
+    border: 1px solid brown;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    width: 600px;
+    margin: 10px auto 60px auto;
+    padding: 20px;
+}
+
+h1 {
     font-family: Carlito;
     font-style: italic;
     font-weight: bolder;
+    color: #c2185b;
+    margin: 0;
+}
+
+.fixed {
+    position: fixed;
+    background-color: #c2185b;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 21px;
+    color: white;
+    border-top: 1px solid #76214B;
 }
