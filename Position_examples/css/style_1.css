@@ -1,0 +1,169 @@
+h1, h2, h3 {
+    font-family: Carlito;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.square {
+    border: 1px solid;
+}
+
+.rel {
+    margin-bottom: 50px;
+}
+
+.box_red {
+    border-color: red;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.box_green {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    top: 75px;
+    left: 75px;
+}
+
+.box_big {
+    position: relative;
+    background-color: lightseagreen;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.two_box {
+    position: relative;
+    background-color: white;
+    height: 100px;
+    width: 100px;
+}
+
+.small {
+    top: 50px;
+    left: 50px;
+}
+
+.small2 {
+    top: 250px;
+    left: 350px;
+}
+
+.parent {
+    position: relative;
+    width: 150px;
+    height: 360px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+}
+
+.circle {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #000000;
+    border-radius: 50%;
+    left: 24px;
+    top: 25px;
+    margin-bottom: 2px;
+}
+
+.one-red {
+    background-color: red;
+}
+
+.one-yellow {
+    background-color: yellow;
+}
+
+.one-green {
+    background-color: green;
+}
+
+.bottom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.main_circle {
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    background-color: #3FB8AF;
+}
+
+.ears {
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.left {
+    top: 100px;
+    left: 150px;
+}
+
+.right {
+    top: 0;
+    left: 350px;
+}
+
+.nose {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    background-color: #fff;
+    top: 50px;
+    left: 260px;
+}
+
+.mouth {
+    position: relative;
+    height: 25px;
+    width: 200px;
+    background-color: #fff;
+    top: 150px;
+    left: 200px;
+}
+
+.nose_2 {
+    position: relative;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 50px;
+    left: 260px;
+}
+
+.mouth_2 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: white;
+    top: 75px;
+    left: 150px;
+    z-index: 1;
+}
+
+.mouth_3 {
+    position: relative;
+    height: 200px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: #3FB8AF;
+    left: 150px;
+    top: -150px;
+    z-index: 2;
+}
+
+
+

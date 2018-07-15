@@ -1,0 +1,195 @@
+body {
+    display: inline-block;
+}
+
+h1, h2, h3 {
+    font-family: Carlito;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.box {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 3px dashed darkgrey;
+    margin-bottom: 50px;
+}
+
+.color {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+}
+
+.red {
+    border-color: red;
+    top: 25px;
+    left: 25px;
+}
+
+.blue {
+    border-color: #0000FF;
+    top: 100px;
+    left: 100px;
+}
+
+.green {
+    border-color: #2e7d32;
+    top: 175px;
+    left: 175px;
+}
+
+.color_1 {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border: 1px solid;
+    top: 50%;
+    margin-left: 20px;
+    margin-top: -25px;
+}
+
+.red_1 {
+    border-color: red;
+    left: 0;
+}
+
+.blue_1 {
+    border-color: #0000FF;
+    left: 33%
+}
+
+.green_1 {
+    border-color: #2e7d32;
+    left: 66%;
+}
+
+.red_2 {
+    border-color: red;
+    right: 25px;
+    top: 25px;
+}
+
+.blue_2 {
+    border-color: #0000FF;
+    top: 100px;
+    right: 100px;
+}
+
+.green_2 {
+    border-color: #2e7d32;
+    right: 175px;
+    top: 175px;
+}
+
+.red_3 {
+    border-color: red;
+    top: 30px;
+    left: 30px;
+}
+
+.blue_3 {
+    border-color: #0000FF;
+    top: 60px;
+    left: 60px;
+}
+
+.green_3 {
+    border-color: #2e7d32;
+    top: 90px;
+    left: 90px;
+}
+
+.red_4 {
+    top: 30px;
+    left: 30px;
+    background-color: red;
+}
+
+.blue_4 {
+    background-color: blue;
+    top: 60px;
+    left: 60px;
+}
+
+.green_4 {
+    background-color: green;
+    top: 90px;
+    left: 90px;
+}
+
+.container {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border: 3px dashed darkgrey;
+    margin-bottom: 50px;
+}
+
+.box_color {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+}
+
+.orange {
+    top: 30px;
+    left: 30px;
+    background-color: orange;
+}
+
+.grey {
+    background-color: grey;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.purple {
+    background-color: purple;
+    top: 90px;
+    left: 90px;
+}
+
+.orange1 {
+    top: 30px;
+    left: 30px;
+    background-color: orange;
+    z-index: 2;
+}
+
+.grey1 {
+    background-color: grey;
+    top: 60px;
+    left: 60px;
+}
+
+.purple1 {
+    background-color: purple;
+    top: 90px;
+    left: 90px;
+    z-index: 2;
+}
+
+.orange2 {
+    top: 30px;
+    left: 30px;
+    background-color: orange;
+    z-index: 3;
+}
+
+.grey2 {
+    background-color: grey;
+    top: 60px;
+    left: 60px;
+    z-index: 2;
+}
+
+.purple2 {
+    background-color: purple;
+    top: 90px;
+    left: 90px;
+}
+
