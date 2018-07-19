@@ -4,17 +4,17 @@
 }
 
 body,
-html,
-.wrapper {
-    min-height: 100%;
+html {
+    height: 100%;
 }
 
 .wrapper {
     font-family: sans-serif;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     display: flex;
     flex-direction: column;
+    min-height: 100%
 }
 
 .header {
@@ -27,25 +27,32 @@ html,
 .main_content {
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
     width: 100%;
     flex-grow: 1;
+
 }
 
 .navigation {
     background-color: lightskyblue;
     width: 30%;
-    padding: 5px;
+    padding: 10px;
+    order: 1;
 }
 
 .content {
-    padding: 5px;
+    background-color: lightpink;
+    align-self: stretch;
+    padding: 10px;
     width: 40%;
+    order: 2;
 }
 
 .stuff {
     background-color: orange;
     width: 30%;
-    padding: 5px;
+    padding: 10px;
+    order: 3;
 }
 
 .footer {
