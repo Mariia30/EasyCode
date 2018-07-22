@@ -1,14 +1,25 @@
+html {
+    min-height: 100%;
+}
+
 body {
     padding: 0;
     margin: 0;
     color: dimgray;
     line-height: 1.5;
+    min-height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 /*Header*/
 .akono {
     border-top: 20px solid dimgray;
-    height: 130px;
+    height: 150px;
     display: flex;
 }
 
@@ -53,6 +64,7 @@ ul li a:hover {
 .container-main {
     background-color: lavender;
     border-top: 1px solid lightgrey;
+    height: 100%;
 }
 
 h1 {
@@ -71,8 +83,8 @@ span {
 .adjectives {
     display: flex;
     justify-content: space-around;
-    max-width: 1082px;
-    margin: 0 100px;
+    max-width: 980px;
+    margin: 0 auto;
 }
 
 .design, .creative,
@@ -82,11 +94,13 @@ span {
     border-radius: 50%;
     border: 0.5px solid;
     color: white;
-    padding: 5px;
+    padding: 7px;
 }
+
 h3 {
     text-align: center;
 }
+
 .design {
     background-color: #ff6666;
     border-color: #ff6666;
@@ -103,8 +117,8 @@ h3 {
 }
 
 .original {
-    background-color: greenyellow;
-    border-color: greenyellow;
+    background-color: darksalmon;
+    border-color: darksalmon;
 }
 
 .design p, .creative p,
@@ -114,35 +128,41 @@ h3 {
 
 /*Pictures*/
 .wrap-pictures {
-    margin: 25px 100px;
+    margin: 20px auto;
     background-color: white;
     border: 1px solid lightgrey;
     height: 200px;
+    width: 980px;
 }
 
 .pictures {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    height: 100%;
 }
 
-.img1, .img2,
-.img3, .img4,
-.img5 {
+.buttons {
     display: flex;
-    align-self: center;
-    padding: 5px;
+    margin: 0 30px;
 }
 
-.img2,
-.img3, .img4 {
+.img1,
+.img5 {
+    padding: 10px;
+}
+
+.img {
     border: 1px solid lightgrey;
+    height: 165px;
+    width: 240px;
+    padding: 10px;
 }
 
 .info-company {
     background-color: white;
     display: flex;
     flex-direction: row;
-    padding: 10px;
+    margin: 10px;
 }
 
 .work-akono {
@@ -152,7 +172,7 @@ h3 {
 }
 
 .latest {
-    width: 50%;
+    width: 40%;
     margin: 20px 100px 20px 60px;
 }
 
@@ -180,10 +200,12 @@ h4 {
     color: blue;
     margin: 0;
 }
+
 h4 a {
     list-style: none;
     text-decoration-line: none;
 }
+
 .latest p {
     margin: 0;
 }
