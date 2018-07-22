@@ -94,7 +94,12 @@ span {
     border-radius: 50%;
     border: 0.5px solid;
     color: white;
-    padding: 7px;
+    padding: 5px;
+}
+
+.design p, .creative p,
+.usable p, .original p {
+    margin: 10px;
 }
 
 h3 {
@@ -129,10 +134,10 @@ h3 {
 /*Pictures*/
 .wrap-pictures {
     margin: 20px auto;
-    background-color: white;
     border: 1px solid lightgrey;
-    height: 200px;
+    height: 250px;
     width: 980px;
+    background: linear-gradient(to bottom, rgba(244, 239, 255, 0.76) 11%, rgba(255, 255, 255, 1) 47%);
 }
 
 .pictures {
@@ -148,14 +153,15 @@ h3 {
 
 .img1,
 .img5 {
-    padding: 10px;
+    margin: 0 10px;
 }
 
 .img {
     border: 1px solid lightgrey;
     height: 165px;
     width: 240px;
-    padding: 10px;
+    padding: 5px;
+    margin: 0 5px;
 }
 
 .info-company {
