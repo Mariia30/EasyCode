@@ -1,0 +1,205 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: dimgray;
+    line-height: 1.5;
+}
+
+/*Header*/
+.akono {
+    border-top: 20px solid dimgray;
+    height: 130px;
+    display: flex;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.logo {
+    margin: auto;
+}
+
+.links-header {
+    display: flex;
+}
+
+.list-header {
+    display: flex;
+    font-size: 25px;
+    align-self: center;
+}
+
+.list-header ul li {
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    padding: 0 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #999999;
+}
+
+ul li a:hover {
+    color: #1565c0;
+}
+
+/*Main*/
+.container-main {
+    background-color: lavender;
+    border-top: 1px solid lightgrey;
+}
+
+h1 {
+    color: grey;
+}
+
+span {
+    color: black;
+}
+
+.content {
+    text-align: center;
+    margin: 25px 100px;
+}
+
+.adjectives {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1082px;
+    margin: 0 100px;
+}
+
+.design, .creative,
+.usable, .original {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 0.5px solid;
+    color: white;
+    padding: 5px;
+}
+h3 {
+    text-align: center;
+}
+.design {
+    background-color: #ff6666;
+    border-color: #ff6666;
+}
+
+.creative {
+    background-color: coral;
+    border-color: coral;
+}
+
+.usable {
+    background-color: lightpink;
+    border-color: lightpink;
+}
+
+.original {
+    background-color: greenyellow;
+    border-color: greenyellow;
+}
+
+.design p, .creative p,
+.usable p, .original p {
+    align-self: center;
+}
+
+/*Pictures*/
+.wrap-pictures {
+    margin: 25px 100px;
+    background-color: white;
+    border: 1px solid lightgrey;
+    height: 200px;
+}
+
+.pictures {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img1, .img2,
+.img3, .img4,
+.img5 {
+    display: flex;
+    align-self: center;
+    padding: 5px;
+}
+
+.img2,
+.img3, .img4 {
+    border: 1px solid lightgrey;
+}
+
+.info-company {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.work-akono {
+    border-right: 1px dotted grey;
+    width: 50%;
+    margin: 20px 100px;
+}
+
+.latest {
+    width: 50%;
+    margin: 20px 100px 20px 60px;
+}
+
+.benefits li {
+    background: url("../images/blue-bullet.png") no-repeat;
+}
+
+.read-more {
+    background: url("../images/blue-button-bg.png") no-repeat;
+    height: 50px;
+}
+
+.read-more:hover {
+    background: url("../images/red-button-bg.png") no-repeat;
+}
+
+.read-more a {
+    color: white;
+    margin: 0 30px;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+h4 {
+    color: blue;
+    margin: 0;
+}
+h4 a {
+    list-style: none;
+    text-decoration-line: none;
+}
+.latest p {
+    margin: 0;
+}
+
+.latest p a {
+    color: #999999;
+    list-style: none;
+    text-decoration-line: none;
+}
+
+/*Footer*/
+.copyright {
+    height: 50px;
+    margin: 0 150px;
+}
+
+.foot {
+    border-top: 1px dotted darkgrey;
+}
