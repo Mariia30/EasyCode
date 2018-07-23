@@ -10,8 +10,7 @@ body {
     min-height: 100%;
 }
 
-.wrapper,
-wrap-contact {
+.wrapper {
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -62,7 +61,8 @@ ul li a:hover {
 }
 
 /*Main*/
-.container-main {
+.container-main,
+wrap-contact {
     background-color: lavender;
     border-top: 1px solid lightgrey;
     height: 100%;
@@ -231,4 +231,69 @@ h4 a {
 
 .foot {
     border-top: 1px dotted darkgrey;
+}
+
+/*CONTACTS*/
+.contact-us {
+    display: block;
+    font-size: 36px;
+    height: 100px;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.contact-us p {
+    margin: 0;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, rgba(244, 239, 255, 0.76) 11%, rgba(255, 255, 255, 1) 47%);
+}
+
+.form-example {
+    display: flex;
+    flex-direction: column;
+}
+
+#name, #email,
+#subject {
+    margin: 10px;
+    height: 35px;
+    background: linear-gradient(to bottom, rgba(244, 239, 255, 0.76) 11%, rgba(255, 255, 255, 1) 47%);
+}
+
+#feed {
+    margin: 10px;
+    background: linear-gradient(to bottom, rgba(244, 239, 255, 0.76) 11%, rgba(255, 255, 255, 1) 47%);
+}
+
+.text-info,
+.second {
+    max-width: 300px;
+}
+
+.text-info, .fill-it {
+    margin: 0 30px;
+}
+
+.second ul {
+    padding: 0;
+}
+
+.second ul span {
+    color: darkgrey;
+}
+
+#submit {
+    display: block;
+    background: url(../images/blue-button-bg.png) no-repeat;
+    width: 150px;
+    height: 37px;
+    cursor: pointer;
+    border: 0;
+    margin-bottom: 20px;
 }
