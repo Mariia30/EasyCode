@@ -22,13 +22,16 @@ img {
 }
 
 .product {
+    position: absolute;
     float: left;
+    max-width: 25%;
     margin: 10px;
     padding: 20px;
 }
 
 .product-name {
     font-size: 14px;
+    margin-bottom: 10px;
 }
 
 .product-img-wrap {
@@ -58,7 +61,8 @@ img {
     padding: 8px 8px 8px 20px;
     line-height: 1;
     height: 30px;
-    позиционирование top -20px, left -0
+    top: 20px;
+    left: 0;
 }
 
 .label-new {
@@ -71,4 +75,7 @@ img {
 
 .label-super {
     background-color: #5a00ff;
+}
+.price {
+    font-size: 18px;
 }
