@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-regular.eot');
+    src: url('opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular.woff2') format('woff2'),
+         url('opensans-regular.woff') format('woff'),
+         url('opensans-regular.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'open_sans';
+    src: url('opensans-light.eot');
+    src: url('opensans-light.eot?#iefix') format('embedded-opentype'),
+    url('opensans-light.woff2') format('woff2'),
+    url('opensans-light.woff') format('woff'),
+    url('opensans-light.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'dosis';
+    src: url('dosis-regular.eot');
+    src: url('dosis-regular.eot?#iefix') format('embedded-opentype'),
+    url('dosis-regular.woff2') format('woff2'),
+    url('dosis-regular.woff') format('woff'),
+    url('dosis-regular.svg#dosisregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
