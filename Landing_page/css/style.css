@@ -45,8 +45,47 @@ a:hover {
 /* CUSTOM */
 
 /* #header */
+#header {
+    position: absolute;
+    width: 100%;
+    background-color: rgb(159,159,159);
+    left: 0;
+}
 
-/* #intro /*
+.logo {
+    display: block;
+    width: 118px;
+    height: 55px;
+    margin: 27px 29px 0;
+}
+
+.link-menu {
+    position: absolute;
+    top: 11px;
+    right: 0;
+    margin-right: 32px;
+}
+
+.link-menu li {
+    float: left;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: rgba(255,255,255,.75);
+    padding: 0 0 0 35px;
+    line-height: 55px;
+}
+
+.link-menu li:hover {
+    color: rgba(255,255,255,1);
+}
+/* #intro */
+#intro {
+    vertical-align: middle;
+    max-height: 900px;
+    max-width: 600px;
+    background-size: cover;
+    background: url(img/bgc-intro.jpg) no-repeat;
+}
 
 /* #about-studio /*
 
