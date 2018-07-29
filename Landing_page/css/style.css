@@ -48,15 +48,17 @@ a:hover {
 #header {
     position: absolute;
     width: 100%;
-    background-color: rgb(159,159,159);
+    height: 75px;
     left: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .logo {
     display: block;
     width: 118px;
     height: 55px;
-    margin: 27px 29px 0;
+    margin: 27px 29px;
 }
 
 .link-menu {
@@ -73,6 +75,8 @@ a:hover {
     color: rgba(255,255,255,.75);
     padding: 0 0 0 35px;
     line-height: 55px;
+    font-family: 'open_sans';
+    letter-spacing: .3em;
 }
 
 .link-menu li:hover {
@@ -80,12 +84,38 @@ a:hover {
 }
 /* #intro */
 #intro {
-    vertical-align: middle;
-    max-height: 900px;
-    max-width: 600px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    background: url(../img/bgc-intro.jpg) 50% 0 no-repeat;
     background-size: cover;
-    background: url(img/bgc-intro.jpg) no-repeat;
 }
+.text-main {
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#intro h1 {
+    font-family: dosis;
+    letter-spacing: 1.2em;
+    color: rgba(255,255,255,.9);
+    text-transform: uppercase;
+    margin-bottom: 36px;
+}
+
+#intro p {
+    font-family: 'open_sans';
+    font-size: 19px;
+    font-weight: lighter;
+    color: rgba(255,255,255,.3)
+}
+
 
 /* #about-studio /*
 
