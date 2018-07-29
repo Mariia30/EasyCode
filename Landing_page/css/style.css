@@ -79,7 +79,7 @@ a:hover {
     letter-spacing: .3em;
 }
 
-.link-menu li:hover {
+.link-menu a:hover {
     color: rgba(255,255,255,1);
 }
 /* #intro */
