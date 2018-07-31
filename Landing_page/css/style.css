@@ -107,8 +107,9 @@ a:hover {
 #intro .moto {
     font-family: 'open_sans', dosis, sans-serif;
     font-size: 19px;
+    font-weight: 300;
     font-weight: lighter;
-    color: rgba(254,254,254,.68);
+    color: rgba(206,206,206,.68);
 }
 
 
