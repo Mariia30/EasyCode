@@ -95,7 +95,7 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-#intro h1 {
+#intro .title {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 30px;
     letter-spacing: 1.7em;
