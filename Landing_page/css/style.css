@@ -41,6 +41,49 @@ a:hover {
 
 
 /* DEFAULS */
+.title {
+    font-family: dosis, 'open_sans', sans-serif;;
+    font-size: 18px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+}
+.section-small {
+    padding: 70px 0;
+}
+
+.section-large {
+    padding: 140px 0;
+}
+.section-light {
+    background: #fff;
+    color: #777;
+}
+
+.section-grey {
+    background: #080808;
+    color: #aaa;
+}
+.section-grey .title,
+
+
+.section-dark {
+    background: #111;
+    color: ;
+}
+blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: 0;
+    font-size: 24px;
+    font-weight: 300px;
+    line-height: 38px;
+}
+blockquote p {
+    font-size: inherit !important;
+    font-weight: inherit !important;
+    line-height: ;
+
+}
 
 /* CUSTOM */
 
@@ -95,12 +138,11 @@ a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
 #intro .title {
-    font-family: dosis, 'open_sans', sans-serif;
     font-size: 30px;
     letter-spacing: 1.7em;
     color: rgba(254,254,254,.9);
-    text-transform: uppercase;
     margin-bottom: 36px;
 }
 
@@ -108,12 +150,23 @@ a:hover {
     font-family: 'open_sans', dosis, sans-serif;
     font-size: 19px;
     font-weight: 300;
-    font-weight: lighter;
     color: rgba(206,206,206,.68);
 }
 
 
-/* #about-studio /*
+
+
+/* #about-studio */
+#about-studio .title {
+    margin-bottom: 76px;
+}
+
+#about-studio {
+    font-size: 15px;
+    line-height: 26px;
+
+}
+
 
 /* #services /*
 
