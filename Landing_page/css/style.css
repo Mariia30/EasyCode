@@ -41,6 +41,7 @@ a:hover {
 
 
 /* DEFAULS */
+
 .title {
     font-family: dosis, 'open_sans', sans-serif;;
     font-size: 18px;
@@ -64,6 +65,7 @@ a:hover {
 .section-light .title {
     color: #111;
 }
+
 .section-grey {
     background: #f8f8f8;
     color: #aaa;
@@ -79,7 +81,7 @@ a:hover {
 }
 
 .section-dark .title {
-   color: #ffffff;
+    color: #ffffff;
 }
 
 blockquote {
@@ -108,10 +110,12 @@ blockquote footer {
 
 
 
-
 /* CUSTOM */
 
+
+
 /* #header */
+
 #header {
     position: absolute;
     width: 100%;
@@ -136,7 +140,7 @@ blockquote footer {
     float: left;
     font-size: 11px;
     text-transform: uppercase;
-    color: rgba(255,255,255,.75);
+    color: rgba(255, 255, 255, .75);
     padding: 0 0 0 35px;
     line-height: 21px;
     font-family: 'open_sans', dosis, sans-serif;
@@ -144,9 +148,13 @@ blockquote footer {
 }
 
 .link-menu a:hover {
-    color: rgba(255,255,255,1);
+    color: rgba(255, 255, 255, 1);
 }
+
+
+
 /* #intro */
+
 #intro {
     position: relative;
     height: 100vh;
@@ -155,6 +163,7 @@ blockquote footer {
     background: url(../img/bgc-intro.jpg) 50% 0 no-repeat;
     background-size: cover;
 }
+
 .text-intro {
     width: 100%;
     position: absolute;
@@ -166,7 +175,7 @@ blockquote footer {
 #intro .title {
     font-size: 30px;
     letter-spacing: 1.7em;
-    color: rgba(254,254,254,.9);
+    color: rgba(254, 254, 254, .9);
     margin-bottom: 36px;
 }
 
@@ -174,13 +183,13 @@ blockquote footer {
     font-family: 'open_sans', dosis, sans-serif;
     font-size: 19px;
     font-weight: 300;
-    color: rgba(206,206,206,.68);
+    color: rgba(206, 206, 206, .68);
 }
 
 
 
-
 /* #about-studio */
+
 #about-studio .title {
     margin-bottom: 76px;
 }
@@ -194,15 +203,15 @@ blockquote footer {
 .about-photo img {
     height: 450px;
     width: 370px;
-    overflow: hidden;
 }
 
 .about-photo {
-    margin: 93px 0 15px;
+    overflow: hidden;
 }
 
 .about-name {
     font-size: 15px;
+    margin-top: 30px;
     margin-bottom: 16px;
 }
 
@@ -210,17 +219,17 @@ blockquote footer {
     font-size: 12px;
 }
 
-.row .about-position,
-.row .about-name {
+.person .about-position,
+.person .about-name {
     font-family: dosis, 'open_sans', sans-serif;
     letter-spacing: 0.4em;
     text-transform: uppercase;
     text-align: center;
 }
-.person-marta,
-.person-steve,
-.person-thomas {
-    margin: 15px 0;
+
+.person {
+    margin: 108px 0 0;
+
 }
 
 
