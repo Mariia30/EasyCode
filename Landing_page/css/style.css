@@ -191,6 +191,37 @@ blockquote footer {
     line-height: 26px;
 }
 
+.about-photo img {
+    height: 450px;
+    width: 370px;
+    overflow: hidden;
+}
+
+.about-photo {
+    margin: 93px 0 15px;
+}
+
+.about-name {
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.about-position {
+    font-size: 12px;
+}
+
+.row .about-position,
+.row .about-name {
+    font-family: dosis, 'open_sans', sans-serif;
+    letter-spacing: 0.4em;
+    text-transform: uppercase;
+    text-align: center;
+}
+.person-marta,
+.person-steve,
+.person-thomas {
+    margin: 15px 0;
+}
 
 
 
