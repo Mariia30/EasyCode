@@ -32,6 +32,10 @@ svg {
     height: auto;
 }
 
+img {
+    filter: grayscale(100%);
+}
+
 a,
 a:hover {
     color: inherit;
@@ -228,8 +232,7 @@ blockquote footer {
 }
 
 .person {
-    margin: 108px 0 0;
-
+    margin: 110px 0 0;
 }
 
 
