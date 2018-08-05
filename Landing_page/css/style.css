@@ -42,8 +42,6 @@ a:hover {
     text-decoration: none;
 }
 
-
-
 /* DEFAULS */
 
 .title {
@@ -112,11 +110,7 @@ blockquote footer {
     text-transform: uppercase;
 }
 
-
-
 /* CUSTOM */
-
-
 
 /* #header */
 
@@ -155,8 +149,6 @@ blockquote footer {
     color: rgba(255, 255, 255, 1);
 }
 
-
-
 /* #intro */
 
 #intro {
@@ -189,8 +181,6 @@ blockquote footer {
     font-weight: 300;
     color: rgba(206, 206, 206, .68);
 }
-
-
 
 /* #about-studio */
 
@@ -245,7 +235,7 @@ blockquote footer {
     background-color: #131313;
     padding: 40px;
     opacity: 0;
-    transition: opacity cubic-bezier(.56,.09,.43,.70) .5s;
+    transition: opacity cubic-bezier(.5,.09,.5,.7) .5s;
 }
 
 #about-studio .skill-title {
@@ -284,49 +274,64 @@ blockquote footer {
 }
 
 #about-studio .progress-bar {
-    background-color: rgba(254,254, 254, .75);
+    width: 0%;
+    transition: width cubic-bezier(.5,.2,.5,.7) .5s 1s;
+    background-color: rgba(254, 254, 254, .75);
 }
 
-#about-studio .progress-bar-90 {
+#about-studio .person:hover  .progress-bar-90 {
     width: 90%;
 }
-#about-studio .progress-bar-83 {
+
+#about-studio .person:hover  .progress-bar-83 {
     width: 83%;
 }
-#about-studio .progress-bar-69 {
+
+#about-studio .person:hover  .progress-bar-69 {
     width: 69%;
 }
-#about-studio .progress-bar-60 {
+
+#about-studio .person:hover  .progress-bar-60 {
     width: 60%;
 }
-#about-studio .progress-bar-67 {
+
+#about-studio .person:hover  .progress-bar-67 {
     width: 67%;
 }
-#about-studio .progress-bar-91 {
+
+#about-studio .person:hover  .progress-bar-91 {
     width: 91%;
 }
-#about-studio .progress-bar-86 {
+
+#about-studio .person:hover  .progress-bar-86 {
     width: 86%;
 }
-#about-studio .progress-bar-77 {
+
+#about-studio .person:hover  .progress-bar-77 {
     width: 77%;
 }
-#about-studio .progress-bar-65 {
+
+#about-studio .person:hover  .progress-bar-65 {
     width: 65%;
 }
-#about-studio .progress-bar-78 {
+
+#about-studio .person:hover  .progress-bar-78 {
     width: 78%;
 }
-#about-studio .progress-bar-93 {
+
+#about-studio .person:hover  .progress-bar-93 {
     width: 93%;
 }
-#about-studio .progress-bar-80 {
+
+#about-studio .person:hover  .progress-bar-80 {
     width: 80%;
 }
 
 #about-studio .person:hover .skills {
     opacity: 1;
 }
+
+
 
 /* #services /*
 
