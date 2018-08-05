@@ -183,7 +183,9 @@ blockquote footer {
 }
 
 /* #about-studio */
-
+#about-studio {
+    border-bottom: 1px solid #ececec;
+}
 #about-studio .title {
     margin-bottom: 76px;
 }
@@ -238,6 +240,10 @@ blockquote footer {
     transition: opacity cubic-bezier(.5,.09,.5,.7) .5s;
 }
 
+#about-studio .skills:hover {
+    opacity: 1;
+}
+
 #about-studio .skill-title {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 18px;
@@ -279,61 +285,58 @@ blockquote footer {
     background-color: rgba(254, 254, 254, .75);
 }
 
-#about-studio .person:hover  .progress-bar-90 {
+#about-studio .skills:hover  .progress-bar-90 {
     width: 90%;
 }
 
-#about-studio .person:hover  .progress-bar-83 {
+#about-studio .skills:hover  .progress-bar-83 {
     width: 83%;
 }
 
-#about-studio .person:hover  .progress-bar-69 {
+#about-studio .skills:hover  .progress-bar-69 {
     width: 69%;
 }
 
-#about-studio .person:hover  .progress-bar-60 {
+#about-studio .skills:hover  .progress-bar-60 {
     width: 60%;
 }
 
-#about-studio .person:hover  .progress-bar-67 {
+#about-studio .skills:hover  .progress-bar-67 {
     width: 67%;
 }
 
-#about-studio .person:hover  .progress-bar-91 {
+#about-studio .skills:hover  .progress-bar-91 {
     width: 91%;
 }
 
-#about-studio .person:hover  .progress-bar-86 {
+#about-studio .skills:hover  .progress-bar-86 {
     width: 86%;
 }
 
-#about-studio .person:hover  .progress-bar-77 {
+#about-studio .skills:hover  .progress-bar-77 {
     width: 77%;
 }
 
-#about-studio .person:hover  .progress-bar-65 {
+#about-studio .skills:hover  .progress-bar-65 {
     width: 65%;
 }
 
-#about-studio .person:hover  .progress-bar-78 {
+#about-studio .skills:hover  .progress-bar-78 {
     width: 78%;
 }
 
-#about-studio .person:hover  .progress-bar-93 {
+#about-studio .skills:hover  .progress-bar-93 {
     width: 93%;
 }
 
-#about-studio .person:hover  .progress-bar-80 {
+#about-studio .skills:hover  .progress-bar-80 {
     width: 80%;
-}
-
-#about-studio .person:hover .skills {
-    opacity: 1;
 }
 
 
 
 /* #services /*
+
 
 /* #lets-talk /*
 
