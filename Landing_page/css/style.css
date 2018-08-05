@@ -231,11 +231,102 @@ blockquote footer {
     text-align: center;
 }
 
-.person {
+#about-studio .person {
     margin: 110px 0 0;
+    position: relative;
 }
 
+#about-studio .skills {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #131313;
+    padding: 40px;
+    opacity: 0;
+    transition: opacity cubic-bezier(.56,.09,.43,.70) .5s;
+}
 
+#about-studio .skill-title {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 18px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+#about-studio .skill-text {
+    margin: 28px 0 38px;
+    font-size: 13px;
+    line-height: 21px;
+    color: rgba(255, 255, 255, .5);
+}
+
+#about-studio .progress-title {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    margin-bottom: 6px;
+    color: rgba(255, 255, 255, .9);
+}
+
+#about-studio .progress {
+    height: 12px;
+    border-radius: 0;
+    margin-bottom: 0;
+    background-color: rgba(254, 254, 254, .15);
+}
+
+#about-studio .progress + .progress-title {
+    margin-top: 18px;
+}
+
+#about-studio .progress-bar {
+    background-color: rgba(254,254, 254, .75);
+}
+
+#about-studio .progress-bar-90 {
+    width: 90%;
+}
+#about-studio .progress-bar-83 {
+    width: 83%;
+}
+#about-studio .progress-bar-69 {
+    width: 69%;
+}
+#about-studio .progress-bar-60 {
+    width: 60%;
+}
+#about-studio .progress-bar-67 {
+    width: 67%;
+}
+#about-studio .progress-bar-91 {
+    width: 91%;
+}
+#about-studio .progress-bar-86 {
+    width: 86%;
+}
+#about-studio .progress-bar-77 {
+    width: 77%;
+}
+#about-studio .progress-bar-65 {
+    width: 65%;
+}
+#about-studio .progress-bar-78 {
+    width: 78%;
+}
+#about-studio .progress-bar-93 {
+    width: 93%;
+}
+#about-studio .progress-bar-80 {
+    width: 80%;
+}
+
+#about-studio .person:hover .skills {
+    opacity: 1;
+}
 
 /* #services /*
 
