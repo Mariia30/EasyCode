@@ -427,7 +427,7 @@ blockquote footer {
     letter-spacing: .3em;
     color: rgb(255, 255, 255);
     text-transform: uppercase;
-    margin-bottom: 25px;
+    margin-bottom: 40px;
 }
 #like-us a {
     display: inline-block;
@@ -445,6 +445,38 @@ blockquote footer {
 
 /* #slider /*
 
+/* #choose-us */
+#choose-us .title-benefit i {
+    display: block;
+    font-size: 48px;
+    margin-bottom: 35px;
+    color: #111111;
+    text-align: center;
+}
+
+#choose-us .title-benefit {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 14px;
+    letter-spacing: .4em;
+    color: #111111;
+    text-transform: uppercase;
+    text-align: center;
+}
+#choose-us .title {
+    letter-spacing: .5em;
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+#choose-us .benefit-text {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-top: 30px;
+}
+#choose-us .benefit-box {
+    margin-top: 85px;
+}
 /* #news /*
 
 /* #subscribe /*
