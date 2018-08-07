@@ -531,7 +531,6 @@ blockquote footer {
     height: 480px;
 }
 
-
 /* #choose-us */
 
 #choose-us .title-benefit i {
@@ -588,6 +587,7 @@ blockquote footer {
     border: 0;
     tr
 }
+
 #map .overlay {
     background-color: rgba(17, 17, 17, .95);
     position: absolute;
@@ -595,6 +595,7 @@ blockquote footer {
     right: 0;
     bottom: 0;
     left: 0;
+    transition: transform .6s;
 }
 
 #map:hover .overlay {
@@ -604,4 +605,5 @@ blockquote footer {
     -o-transform: translateY(-101%);
     transform: translateY(-101%);
 }
+
 /* #footer */
