@@ -43,6 +43,8 @@ a:focus {
     text-decoration: none;
 }
 
+
+
 /* DEFAULS */
 
 .title {
@@ -143,7 +145,10 @@ blockquote footer {
     border: 0;
 }
 
+
+
 /* CUSTOM */
+
 
 /* #header */
 
@@ -182,6 +187,8 @@ blockquote footer {
     color: rgba(255, 255, 255, 1);
 }
 
+
+
 /* #intro */
 
 #intro {
@@ -215,7 +222,10 @@ blockquote footer {
     color: rgba(206, 206, 206, .68);
 }
 
+
+
 /* #about-studio */
+
 #about-studio {
     border-bottom: 1px solid #ececec;
 }
@@ -367,6 +377,8 @@ blockquote footer {
     width: 80%;
 }
 
+
+
 /* #services */
 
 #services .title {
@@ -410,6 +422,8 @@ blockquote footer {
     line-height: 26px;
 }
 
+
+
 /* #lets-talk /*
 
 /* #portfolio /*
@@ -437,9 +451,12 @@ blockquote footer {
     text-align: center;
 }
 
+
+
 /* #slider /*
 
 /* #choose-us */
+
 #choose-us .title-benefit i {
     display: block;
     font-size: 48px;
