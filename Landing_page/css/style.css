@@ -145,7 +145,33 @@ blockquote footer {
     border: 0;
 }
 
+.btn,
+.btn-lg,
+.btn-xs,
+.btn-sm {
+    line-height: 1;
+    border: 0;
+    box-shadow: 0 !important;
+    outline: 0 !important;
+    border-radius: 2px;
+    text-transform: uppercase;
+}
 
+.btn-lg,
+.btn-xs,
+.btn-sm {
+    display: inline-block;
+}
+
+.btn {
+    font-size: 13px;
+    letter-spacing: .2em;
+    padding: 11px 17px 12px 20px;
+}
+
+.btn-lg {
+    
+}
 
 /* CUSTOM */
 
