@@ -43,8 +43,6 @@ a:focus {
     text-decoration: none;
 }
 
-
-
 /* DEFAULS */
 
 .title {
@@ -182,7 +180,7 @@ blockquote footer {
 .btn-light,
 .btn-grey,
 .btn-dark {
-transition: background-color 3s;
+    transition: background-color 3s;
 }
 
 .btn-light {
@@ -193,7 +191,7 @@ transition: background-color 3s;
 .btn-light:hover,
 .btn-light:active,
 .btn-light:focus {
-    color: inherit;
+    color: #111111;
     background: rgba(255, 255, 255, 1);
 }
 
@@ -205,8 +203,8 @@ transition: background-color 3s;
 .btn-grey:hover,
 .btn-grey:active,
 .btn-grey:focus {
-    color: inherit;
-    background: rgba(0, 0, 0, .3);
+    color: #777777;
+    background: rgba(0, 0, 0, .15);
 }
 
 .btn-dark {
@@ -217,12 +215,15 @@ transition: background-color 3s;
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus {
-    color: inherit;
+    color: #ffffff;
     background: rgba(0, 0, 0, 1)
 }
 
+.left .carousel-control,
+.right .carousel-control {
+    background-image: none;
+}
 /* CUSTOM */
-
 
 /* #header */
 
@@ -261,8 +262,6 @@ transition: background-color 3s;
     color: rgba(255, 255, 255, 1);
 }
 
-
-
 /* #intro */
 
 #intro {
@@ -295,8 +294,6 @@ transition: background-color 3s;
     font-weight: 300;
     color: rgba(206, 206, 206, .68);
 }
-
-
 
 /* #about-studio */
 
@@ -451,8 +448,6 @@ transition: background-color 3s;
     width: 80%;
 }
 
-
-
 /* #services */
 
 #services .title {
@@ -496,8 +491,6 @@ transition: background-color 3s;
     line-height: 26px;
 }
 
-
-
 /* #lets-talk /*
 
 /* #portfolio /*
@@ -525,9 +518,18 @@ transition: background-color 3s;
     text-align: center;
 }
 
+/* #slider */
 
+#slider {
+    width: 100%;
 
-/* #slider /*
+}
+
+#slider .item {
+    height: 480px;
+    width: 70%;
+}
+
 
 /* #choose-us */
 
@@ -566,8 +568,6 @@ transition: background-color 3s;
 #choose-us .benefit-box {
     margin-top: 85px;
 }
-
-
 
 /* #news /*
 
