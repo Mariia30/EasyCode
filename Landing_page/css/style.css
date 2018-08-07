@@ -155,6 +155,7 @@ blockquote footer {
     outline: 0 !important;
     border-radius: 2px;
     text-transform: uppercase;
+    letter-spacing: .2em;
 }
 
 .btn-lg,
@@ -165,12 +166,59 @@ blockquote footer {
 
 .btn {
     font-size: 13px;
-    letter-spacing: .2em;
     padding: 11px 17px 12px 20px;
 }
 
 .btn-lg {
-    
+    font-size: 14px;
+    padding: 13px 37px 13px 40px;
+}
+
+.btn-sm {
+    font-size: 11px;
+    padding: 7px 13px 8px 16px;
+}
+
+.btn-light,
+.btn-grey,
+.btn-dark {
+transition: background-color 3s;
+}
+
+.btn-light {
+    color: #111111;
+    background: rgba(255, 255, 255, .8);
+}
+
+.btn-light:hover,
+.btn-light:active,
+.btn-light:focus {
+    color: inherit;
+    background: rgba(255, 255, 255, 1);
+}
+
+.btn-grey {
+    color: #777777;
+    background: rgba(0, 0, 0, 1);
+}
+
+.btn-grey:hover,
+.btn-grey:active,
+.btn-grey:focus {
+    color: inherit;
+    background: rgba(0, 0, 0, .3);
+}
+
+.btn-dark {
+    color: #ffffff;
+    background: rgba(0, 0, 0, .8);
+}
+
+.btn-dark:hover,
+.btn-dark:active,
+.btn-dark:focus {
+    color: inherit;
+    background: rgba(0, 0, 0, 1)
 }
 
 /* CUSTOM */
