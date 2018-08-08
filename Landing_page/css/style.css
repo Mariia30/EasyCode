@@ -526,11 +526,61 @@ blockquote footer {
 }
 
 #slider .item {
-    display: block;
     text-align: center;
     height: 480px;
 }
 
+#slider .carousel-inner .item i {
+    display: block;
+    font-size: 32px;
+    margin: 140px 0 20px;
+}
+
+#slider .carousel-inner .title {
+    margin-bottom: 45px;
+    font-weight: 300;
+    line-height: 26px;
+}
+
+#slider .carousel-inner blockquote p {
+    font-family: 'open_sans', dosis, sans-serif;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 30px;
+    color: rgba(255, 255, 255, .75);
+}
+#slider .carousel-inner blockquote footer {
+    line-height: 38px;
+    color: rgba(255, 255, 255, .3);
+}
+
+#slider .carousel-indicators .active {
+    width: 11px;
+    height: 11px;
+    margin: 0;
+    background-color: #000\9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, .8);
+    border-radius: 10px;
+}
+
+#slider .carousel-indicators li {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, .8);    border-radius: 10px;
+}
+#carousel-citations ol {
+    margin-bottom: 30px;
+}
+
+#slider .carousel-inner {
+    max-width: 70%;
+    margin: 0 auto;
+}
 /* #choose-us */
 
 #choose-us .title-benefit i {
