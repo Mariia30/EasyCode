@@ -494,7 +494,55 @@ blockquote footer {
 
 /* #lets-talk /*
 
-/* #portfolio /*
+/* #portfolio */
+#portfolio .portfolio-box {
+    text-align: center;
+    width: 760px;
+    margin: 0 auto;
+}
+
+#portfolio .portfolio-box .title {
+    padding: 140px 0 80px;
+    letter-spacing: .5em;
+}
+
+#portfolio .portfolio-box p {
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 26px;
+    margin-bottom: 85px;
+}
+
+#portfolio .container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#portfolio .container-fluid .row {
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+#portfolio .container-fluid .nav {
+    text-align: center;
+}
+#portfolio .container-fluid .nav>li {
+    display: inline-block;
+    padding: 0 4px 48px;
+    float: none;
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 13px;
+    letter-spacing: .4em;
+    text-transform: uppercase;
+    color: rgba(0,0, 0, .5);
+    border: 0;
+}
+
+#portfolio .container-fluid .nav>li:hover>a,
+#portfolio .container-fluid .nav>li:active>a,
+#portfolio .container-fluid .nav>li:focus>a{
+    color: #111111;
+}
 
 /* #like-us */
 
@@ -568,9 +616,9 @@ blockquote footer {
     display: inline-block;
     width: 11px;
     height: 11px;
-    margin: 1px;
     text-indent: -999px;
     cursor: pointer;
+    border: 1px solid;
     background-color: rgba(255, 255, 255, .8);    border-radius: 10px;
 }
 #carousel-citations ol {
@@ -581,6 +629,9 @@ blockquote footer {
     max-width: 70%;
     margin: 0 auto;
 }
+
+
+
 /* #choose-us */
 
 #choose-us .title-benefit i {
@@ -669,3 +720,6 @@ blockquote footer {
 
 }
 /* #footer */
+ #footer {
+     height: 430px;
+ }
