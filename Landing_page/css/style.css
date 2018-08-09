@@ -528,7 +528,7 @@ blockquote footer {
 }
 #portfolio .container-fluid .nav>li {
     display: inline-block;
-    padding: 0 4px 48px;
+    padding: 0 16px 48px;
     float: none;
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 13px;
@@ -540,9 +540,28 @@ blockquote footer {
 
 #portfolio .container-fluid .nav>li:hover>a,
 #portfolio .container-fluid .nav>li:active>a,
-#portfolio .container-fluid .nav>li:focus>a{
+#portfolio .container-fluid .nav>li:focus>a,
+#portfolio .container-fluid .nav-tabs>li.active>a,
+#portfolio .container-fluid .nav-tabs>li.active>a:focus,
+#portfolio .container-fluid .nav-tabs>li.active>a:hover {
     color: #111111;
 }
+
+#portfolio .container-fluid .row .all-portfolio {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+#portfolio .container-fluid .row .all-portfolio img {
+    margin-bottom: 8px;
+}
+
+#portfolio .container-fluid .row .all-portfolio img:active,
+#portfolio .container-fluid .row .all-portfolio img:hover,
+#portfolio .container-fluid .row .all-portfolio img:focus {
+    filter: grayscale(0%);
+}
+
+
 
 /* #like-us */
 
