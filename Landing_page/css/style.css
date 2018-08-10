@@ -561,6 +561,10 @@ blockquote footer {
     padding-right: 4px;
 }
 
+#portfolio .container-fluid .row .wrap-portfolio{
+    padding: 0;
+}
+
 #portfolio .container-fluid .row .all-portfolio img {
     margin-bottom: 8px;
     transition: filter 1s;
@@ -598,10 +602,6 @@ blockquote footer {
 }
 
 /* #slider */
-
-#slider {
-
-}
 
 #slider .item {
     text-align: center;
