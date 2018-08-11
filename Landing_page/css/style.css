@@ -862,13 +862,37 @@ blockquote footer {
 
 /* #footer */
  #footer {
-     height: 430px;
      background: #f8f8f8;
  }
 #footer .mountains-img {
     text-align: center;
-    margin: 140px 0 25px;
+    margin: 140px 0 35px;
 }
 #footer .fa-box {
     text-align: center;
+    letter-spacing: 13px;
+}
+#footer .fa-light::before,
+#footer .fa-bordered::before,
+#footer .fa-dark::before {
+    padding-left: 13px;
+}
+#footer .footer-box {
+    margin-top: 120px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#footer .copy {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.5em;
+    color: #111111;
+    text-transform: uppercase;
+}
+#footer .footer-box p {
+    font-family: 'open_sans', sans-serif;
+    font-size: 11px;
+    color: #999999;
+    padding-top: 15px;
 }
