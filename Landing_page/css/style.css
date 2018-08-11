@@ -225,6 +225,57 @@ blockquote footer {
     background-image: none;
 }
 
+.fa-light,
+.fa-bordered,
+.fa-dark,
+.fa-light::before,
+.fa-bordered::before,
+.fa-dark::before {
+    position: relative;
+}
+
+.fa-light::before,
+.fa-bordered::before,
+.fa-dark::before {
+    z-index: 1;
+}
+
+.fa-light::after,
+.fa-bordered::after,
+.fa-dark::after {
+    content: '';
+    display: block;
+    height: 25px;
+    width: 25px;
+    border-radius: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.fa-light {
+    color: #222222;
+}
+.fa-light::after {
+    background-color: #ffffff;
+}
+
+.fa-bordered {
+    color: #111111;
+}
+
+.fa-bordered::after {
+    border: 1px solid rgba(0, 0, 0, .9);
+}
+
+.fa-dark {
+    color: #f8f8f8;
+}
+
+.fa-dark::after {
+    background-color: #111;
+}
 /* CUSTOM */
 
 /* #header */
@@ -297,6 +348,11 @@ blockquote footer {
     color: rgba(206, 206, 206, .68);
 }
 
+#intro .fa {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 35px;
+}
 /* #about-studio */
 
 #about-studio {
@@ -492,7 +548,21 @@ blockquote footer {
     line-height: 26px;
 }
 
-/* #lets-talk /*
+/* #lets-talk */
+
+#lets-talk .box-talk p {
+    margin-top: 20px;
+    margin-bottom: 36px;
+    font-weight: 300;
+    font-style: 15px;
+    line-height: 26px;
+    color: rgba(255, 255, 255, .7);
+}
+
+#lets-talk img {
+    margin-top: -172px;
+    margin-bottom: -97px;
+}
 
 /* #portfolio */
 
@@ -524,6 +594,7 @@ blockquote footer {
     padding-left: 0;
     padding-right: 0;
     margin-top: 20px;
+    overflow: hidden;
 }
 
 #portfolio .container-fluid .row {
@@ -660,10 +731,29 @@ blockquote footer {
     max-width: 70%;
     margin: 0 auto;
 }
+.carousel-control.left .fa-light,
+.carousel-control.right .fa-light {
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
+.carousel-control.left. fa-light::after,
+.carousel-control.right .fa-light::after {
+    height: 63px;
+    width: 63px;
+}
 
+.carousel-control.left .fa-light {
+    left: 15px;
+}
 
-/* #choose-us */
+.carousel-control.right .fa-light {
+    right: 15px;
+}
+
+    /* #choose-us */
 
 #choose-us .title-benefit i {
     display: block;
@@ -717,7 +807,6 @@ blockquote footer {
     width: 100%;
     height: 410px;
     border: 0;
-    tr
 }
 
 #map .overlay {
@@ -748,8 +837,13 @@ blockquote footer {
     padding-left: 0.3em;
     text-transform: uppercase;
     color: rgba(255, 255, 255, .75);
+    margin-top: 25px;
 
 }
+#map .promo .fa {
+    left: 50%;
+}
+
 /* #footer */
  #footer {
      height: 430px;
