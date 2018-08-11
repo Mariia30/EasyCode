@@ -380,8 +380,7 @@ blockquote footer {
 
 #intro .fa {
     position: absolute;
-    bottom: 0;
-    margin-bottom: 35px;
+    bottom: 35px;
 }
 /* #about-studio */
 
@@ -782,6 +781,7 @@ blockquote footer {
 
 #subscribe input[type="email"] {
    height: 36px;
+    width: 290px;
    border-radius: 2px;
    padding-left: 13px;
    padding-right: 13px;
@@ -794,7 +794,20 @@ blockquote footer {
 #subscribe input[type="email"]:focus {
    border-color: #111;
 }
-
+#subscribe .title {
+    margin-bottom: 20px;
+}
+#subscribe input[placeholder] {
+    font-family: 'open_sans';
+    font-size: 12px;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+#subscribe p {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #aaaaaa;
+}
 /* #contacts /*
 
 /* #map */
@@ -841,11 +854,21 @@ blockquote footer {
     transform: translateY(-101%);
 }
 
-#map .promo .fa {
+#map .overlay .fa-map-marker {
+    position: relative;
     left: 50%;
+    top: 167px;
 }
 
 /* #footer */
  #footer {
      height: 430px;
+     background: #f8f8f8;
  }
+#footer .mountains-img {
+    text-align: center;
+    margin: 140px 0 25px;
+}
+#footer .fa-box {
+    text-align: center;
+}
