@@ -823,12 +823,19 @@ blockquote footer {
 }
 #contacts .fa-dark {
     font-size: 18px;
+    vertical-align: middle;
+}
+
+#contacts .box-wrap {
+    display: inline-block;
 }
 
 #contacts .call-us,
 #contacts .address,
 #contacts .email {
-    margin-left: 13px;
+    margin-left: 19px;
+    display: inherit;
+    vertical-align: middle;
 }
 
 #contacts .call-us p,
@@ -848,9 +855,25 @@ blockquote footer {
     font-size: 15px;
     color: #444444;
 }
+
+#contacts .call-us a:hover,
+#contacts .call-us a:active,
+#contacts .call-us a:focus,
+#contacts .address a:hover,
+#contacts .address a:focus,
+#contacts .address a:active,
+#contacts .email a:hover,
+#contacts .email a:focus,
+#contacts .email a:active {
+    color: #111111;
+}
+
+
 #contacts .row {
     margin-bottom: 83px;
 }
+
+
     /* #map */
 #map {
     position: relative;
