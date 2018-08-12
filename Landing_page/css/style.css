@@ -378,7 +378,7 @@ blockquote footer {
     color: rgba(206, 206, 206, .68);
 }
 
-#intro .fa {
+#intro a {
     position: absolute;
     bottom: 35px;
 }
@@ -740,6 +740,9 @@ blockquote footer {
 }
 
 /* #slider */
+#slider {
+    overflow: hidden;
+}
 
 #slider .item {
     text-align: center;
@@ -808,9 +811,47 @@ blockquote footer {
     font-size: 10px;
     color: #aaaaaa;
 }
-/* #contacts /*
+/* #contacts */
+#contacts {
+    padding: 0;
+}
 
-/* #map */
+#contacts .title {
+    margin: 140px 0 100px;
+    text-align: center;
+    letter-spacing: .5em;
+}
+#contacts .fa-dark {
+    font-size: 18px;
+}
+
+#contacts .call-us,
+#contacts .address,
+#contacts .email {
+    margin-left: 13px;
+}
+
+#contacts .call-us p,
+#contacts .address p,
+#contacts .email p {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 12px;
+    letter-spacing: .3em;
+    text-transform: uppercase;
+    padding-bottom: 13px;
+}
+
+#contacts .call-us a,
+#contacts .address a,
+#contacts .email a {
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 15px;
+    color: #444444;
+}
+#contacts .row {
+    margin-bottom: 83px;
+}
+    /* #map */
 #map {
     position: relative;
     overflow: hidden;
@@ -863,6 +904,7 @@ blockquote footer {
 /* #footer */
  #footer {
      background: #f8f8f8;
+     position: relative;
  }
 #footer .mountains-img {
     text-align: center;
@@ -895,4 +937,14 @@ blockquote footer {
     font-size: 11px;
     color: #999999;
     padding-top: 15px;
+}
+#footer .link-top {
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+}
+
+#footer .link-top i {
+    color: #aaaaaa;
+    font-size: 15px;
 }
