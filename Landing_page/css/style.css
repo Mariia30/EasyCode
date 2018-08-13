@@ -115,7 +115,7 @@ blockquote footer {
     border-bottom: 0;
 }
 
-.nav-tabs>li {
+.nav-tabs > li {
     margin-bottom: 0;
 }
 
@@ -123,7 +123,7 @@ blockquote footer {
     padding: 0;
 }
 
-.nav-tabs>li>a {
+.nav-tabs > li > a {
     margin: 0;
     line-height: 1;
     border-radius: 0;
@@ -220,7 +220,6 @@ blockquote footer {
     background: rgba(0, 0, 0, 1)
 }
 
-
 .fa-light,
 .fa-bordered,
 .fa-dark,
@@ -253,6 +252,7 @@ blockquote footer {
 .fa-light {
     color: #222222;
 }
+
 .fa-light::after {
     background: #ffffff;
 }
@@ -307,6 +307,7 @@ blockquote footer {
 .carousel-control.right .fa-light::after {
     transform: translate(-20%, -50%) rotate(45deg);
 }
+
 /* CUSTOM */
 
 /* #header */
@@ -382,6 +383,7 @@ blockquote footer {
     position: absolute;
     bottom: 35px;
 }
+
 /* #about-studio */
 
 #about-studio {
@@ -635,7 +637,7 @@ blockquote footer {
     text-align: center;
 }
 
-#portfolio .container-fluid .nav>li {
+#portfolio .container-fluid .nav > li {
     display: inline-block;
     padding: 0 16px 48px;
     float: none;
@@ -643,16 +645,16 @@ blockquote footer {
     font-size: 13px;
     letter-spacing: .4em;
     text-transform: uppercase;
-    color: rgba(0,0, 0, .5);
+    color: rgba(0, 0, 0, .5);
     border: 0;
 }
 
-#portfolio .container-fluid .nav>li:hover>a,
-#portfolio .container-fluid .nav>li:active>a,
-#portfolio .container-fluid .nav>li:focus>a,
-#portfolio .container-fluid .nav-tabs>li.active>a,
-#portfolio .container-fluid .nav-tabs>li.active>a:focus,
-#portfolio .container-fluid .nav-tabs>li.active>a:hover {
+#portfolio .container-fluid .nav > li:hover > a,
+#portfolio .container-fluid .nav > li:active > a,
+#portfolio .container-fluid .nav > li:focus > a,
+#portfolio .container-fluid .nav-tabs > li.active > a,
+#portfolio .container-fluid .nav-tabs > li.active > a:focus,
+#portfolio .container-fluid .nav-tabs > li.active > a:hover {
     color: #111111;
 }
 
@@ -661,7 +663,7 @@ blockquote footer {
     padding-right: 4px;
 }
 
-#portfolio .container-fluid .row .wrap-portfolio{
+#portfolio .container-fluid .row .wrap-portfolio {
     padding: 0;
 }
 
@@ -675,8 +677,6 @@ blockquote footer {
 #portfolio .container-fluid .row .all-portfolio img:focus {
     filter: grayscale(0%);
 }
-
-
 
 /* #like-us */
 
@@ -701,7 +701,7 @@ blockquote footer {
     text-align: center;
 }
 
-    /* #choose-us */
+/* #choose-us */
 
 #choose-us .title-benefit i {
     display: block;
@@ -781,36 +781,39 @@ blockquote footer {
 
 /* #subscribe */
 
-
 #subscribe input[type="email"] {
-   height: 36px;
+    height: 36px;
     width: 290px;
-   border-radius: 2px;
-   padding-left: 13px;
-   padding-right: 13px;
-   border: 1px solid #dfdfdf;
-   transition: border-color .3s;
-   color: #777;
+    border-radius: 2px;
+    padding-left: 13px;
+    padding-right: 13px;
+    border: 1px solid #dfdfdf;
+    transition: border-color .3s;
+    color: #777;
 }
 
 #subscribe input[type="email"]:hover,
 #subscribe input[type="email"]:focus {
-   border-color: #111;
+    border-color: #111;
 }
+
 #subscribe .title {
     margin-bottom: 20px;
 }
+
 #subscribe input[placeholder] {
     font-family: 'open_sans';
     font-size: 12px;
     letter-spacing: .2em;
     text-transform: uppercase;
 }
+
 #subscribe p {
     margin-top: 20px;
     font-size: 10px;
     color: #aaaaaa;
 }
+
 /* #contacts */
 #contacts {
     padding: 0;
@@ -821,6 +824,11 @@ blockquote footer {
     text-align: center;
     letter-spacing: .5em;
 }
+
+#contacts .row {
+    margin-bottom: 80px;
+}
+
 #contacts .fa-dark {
     font-size: 18px;
     vertical-align: middle;
@@ -868,13 +876,7 @@ blockquote footer {
     color: #111111;
 }
 
-
-#contacts .row {
-    margin-bottom: 83px;
-}
-
-
-    /* #map */
+/* #map */
 #map {
     position: relative;
     overflow: hidden;
@@ -900,7 +902,7 @@ blockquote footer {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 16px;
     letter-spacing: .3em;
@@ -910,6 +912,7 @@ blockquote footer {
     margin-top: 25px;
 
 }
+
 #map:hover .overlay {
     -webkit-transform: translateY(-101%);
     -moz-transform: translateY(-101%);
@@ -925,26 +928,31 @@ blockquote footer {
 }
 
 /* #footer */
- #footer {
-     background: #f8f8f8;
-     position: relative;
- }
+#footer {
+    background: #f8f8f8;
+    position: relative;
+    padding-bottom: 0;
+}
+
 #footer .mountains-img {
     text-align: center;
     margin: 140px 0 35px;
 }
+
 #footer .fa-box {
     text-align: center;
     letter-spacing: 13px;
 }
+
 #footer .fa-light::before,
 #footer .fa-bordered::before,
 #footer .fa-dark::before {
     padding-left: 13px;
 }
+
 #footer .footer-box {
     margin-top: 120px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -955,12 +963,14 @@ blockquote footer {
     color: #111111;
     text-transform: uppercase;
 }
+
 #footer .footer-box p {
     font-family: 'open_sans', sans-serif;
     font-size: 11px;
     color: #999999;
     padding-top: 15px;
 }
+
 #footer .link-top {
     position: absolute;
     bottom: 30px;
