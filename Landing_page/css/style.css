@@ -778,17 +778,22 @@ blockquote footer {
 }
 
 /* #news*/
-#news {
-
+#news .news-title {
+    margin-bottom: 80px;
+    padding: 0 40px;
 }
 
 #news .latest-news {
-
     letter-spacing: .5em;
 }
 
 #news .latest-news-more {
-    margin-bottom: 80px;
+    float: right;
+    font-family: dosis, 'open_sans', sans-serif;
+    font-size: 11px;
+    letter-spacing: .4em;
+    color: #999999;
+    text-transform: uppercase;
 }
 
 #news .photo-article {
