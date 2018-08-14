@@ -887,6 +887,7 @@ blockquote footer {
 #contacts .fa-dark {
     font-size: 18px;
     vertical-align: middle;
+    margin-left: 10px;
 }
 
 #contacts .box-wrap {
