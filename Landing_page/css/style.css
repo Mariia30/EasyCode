@@ -73,6 +73,13 @@ a:focus {
     text-transform: uppercase;
 }
 
+input,
+button,
+textarea {
+    -webkit-appearance: none;
+    outline: none;
+}
+
 /* DEFAULS */
 
 .title {
