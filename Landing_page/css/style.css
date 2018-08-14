@@ -840,6 +840,7 @@ blockquote footer {
     border: 1px solid #dfdfdf;
     transition: border-color .3s;
     color: #777;
+    vertical-align: middle;
 }
 
 #subscribe input[type="email"]:hover,
@@ -849,6 +850,10 @@ blockquote footer {
 
 #subscribe .title {
     margin-bottom: 20px;
+}
+
+#subscribe button {
+    vertical-align: middle;
 }
 
 #subscribe input[placeholder] {
