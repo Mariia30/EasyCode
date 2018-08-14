@@ -43,6 +43,36 @@ a:focus {
     text-decoration: none;
 }
 
+::placeholder {
+    color: #777777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+::-webkit-input-placeholder {
+    color: #777777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+::-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+:-ms-input-placeholder {
+    color: #777777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+:-moz-placeholder {
+    color: #777777;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
 /* DEFAULS */
 
 .title {
@@ -871,7 +901,7 @@ blockquote footer {
 
 /* #contacts */
 #contacts {
-    padding: 0;
+    padding: 0 0 140px;
 }
 
 #contacts .title {
@@ -885,39 +915,35 @@ blockquote footer {
 }
 
 #contacts .fa-dark {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
     font-size: 18px;
     vertical-align: middle;
-    margin-left: 10px;
+    left: 10px;
 }
 
 #contacts .box-wrap {
-    display: inline-block;
+    margin-left: 46px;
 }
 
-#contacts .call-us,
-#contacts .address,
-#contacts .email {
-    margin-left: 19px;
-    display: inherit;
-    vertical-align: middle;
-}
-
-#contacts .call-us p,
-#contacts .address p,
-#contacts .email p {
+#contacts .call-us span,
+#contacts .address span,
+#contacts .email span {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 12px;
     letter-spacing: .3em;
     text-transform: uppercase;
-    padding-bottom: 13px;
 }
 
 #contacts .call-us a,
 #contacts .address a,
 #contacts .email a {
+    display: block;
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 15px;
     color: #444444;
+    margin-top: 13px;
 }
 
 #contacts .call-us a:hover,
@@ -930,6 +956,66 @@ blockquote footer {
 #contacts .email a:focus,
 #contacts .email a:active {
     color: #111111;
+}
+
+#contacts .row-custom {
+    margin-top: 80px;
+
+}
+
+#contacts .col-custom {
+    width: 50%;
+    float: left;
+}
+
+#contacts .col-custom:nth-child(1) {
+    padding-right: 5px;
+}
+
+#contacts .col-custom:nth-child(2) {
+    padding-left: 5px;
+}
+
+#contacts .col-custom:nth-child(n+3) {
+    margin-top: 20px;
+}
+
+#contacts .col-custom .fa-info-circle {
+    line-height: 36px;
+}
+
+#contacts input,
+#contacts textarea {
+    width: 100%;
+    border-radius: 2px;
+    padding-right: 13px;
+    padding-left: 13px;
+    border: 1px solid #dfdfdf;
+    letter-spacing: .2em;
+    transition: border-color .3s;
+}
+
+#contacts textarea {
+    resize: vertical;
+    min-height: 82px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    line-height: 1.3;
+}
+
+#contacts input + input {
+    margin-top: 10px;
+}
+
+#contacts input {
+    height: 36px;
+}
+
+#contacts input:hover,
+#contacts input:active,
+#contacts textarea:hover,
+#contacts textarea:active {
+    color: #111;
 }
 
 /* #map */

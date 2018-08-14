@@ -623,7 +623,7 @@
 <!-- section (#subscribe) -->
 <section id="subscribe" class="section-small section-grey text-center">
     <h2 class="title">Stay informed with our newsletter</h2>
-    <form action="mail.php" method="post">
+    <form>
         <input type="email" name="mail" placeholder="Enter email here">
         <button type="submit" class="btn btn-dark">Subscribe</button>
     </form>
@@ -641,7 +641,7 @@
                         <div class="box-wrap">
                             <i class="fa fa-dark fa-phone" aria-hidden="true"></i>
                             <div class="call-us">
-                                <p>Call us</p>
+                                <span>Call us</span>
                                 <a href="tel:+6138376 6284">+61 3 8376 6284</a>
                             </div>
                         </div>
@@ -650,7 +650,7 @@
                         <div class="box-wrap">
                             <i class="fa fa-dark fa-map-marker" aria-hidden="true"></i>
                             <div class="address">
-                                <p>Address</p>
+                                <span>Address</span>
                                 <a href="https://goo.gl/maps/4gWx8igeTVT2">245 Quigley Blvd, Ste K</a>
                             </div>
                         </div>
@@ -659,12 +659,29 @@
                         <div class="box-wrap">
                             <i class="fa fa-dark fa-envelope" aria-hidden="true"></i>
                             <div class="email">
-                                <p>Email</p>
+                                <span>Email</span>
                                 <a href="mailto:support@bestlooker.pro">support@bestlooker.pro</a>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class="row-custom">
+            <div class="col-custom">
+                <form>
+                    <input type="text" name="name" placeholder="Enter your name">
+                    <input type="email" name="name" placeholder="Enter email">
+                </form>
+            </div>
+            <div class="col-custom">
+                <textarea name="feedback" placeholder="Message"></textarea>
+            </div>
+            <div class="col-custom">
+                <p><i class="fa fa-info-circle"></i> All the fields are required</p>
+            </div>
+            <div class="col-custom">
+                <button type="submit" class="btn btn-dark text-right">Submit message</button>
             </div>
         </div>
     </div>
