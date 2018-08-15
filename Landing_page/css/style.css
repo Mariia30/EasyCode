@@ -1119,14 +1119,3 @@ blockquote footer {
     color: #999999;
     padding-top: 15px;
 }
-
-#footer .link-top {
-    position: absolute;
-    bottom: 30px;
-    right: 50px;
-}
-
-#footer .link-top i {
-    color: #aaaaaa;
-    font-size: 15px;
-}
