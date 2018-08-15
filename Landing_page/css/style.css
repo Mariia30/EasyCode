@@ -1136,9 +1136,18 @@ blockquote footer {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    transition: opacity .3s;
+    box-shadow: 0 0 1px #777777;
+    transition: opacity .3s, transform .3s;
+    transform: translateY(121%);
 }
 
+#top.visible {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+}
 #top:hover {
     opacity: 1;
 }
