@@ -7,8 +7,8 @@ $(function () {
         scroll.animate({
             scrollTop: top
         }, 1000);
-    }
-    );
-});
+        return false;
+    } )
+};
 
 
