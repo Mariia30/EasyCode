@@ -829,7 +829,6 @@ blockquote footer {
 }
 
 #news .news-title {
-    padding: 0 40px;
     overflow: hidden;
 }
 
@@ -848,8 +847,8 @@ blockquote footer {
     padding-top: 7px;
 }
 
-#news .photo-article {
-    margin: 80px 13px 30px 0;
+#news .box-news {
+    margin: 80px 0 50px 0;
 }
 
 #news .photo-article img:hover,
@@ -857,6 +856,10 @@ blockquote footer {
 #news .photo-article img:focus {
     filter: grayscale(0%);
     transition: filter .3s;
+}
+
+#news .article-text {
+    margin: 30px 0;
 }
 
 #news .article-text h3 {
@@ -876,14 +879,9 @@ blockquote footer {
 
 #news .article-text p {
     margin-top: 25px;
-    margin-bottom: 30px;
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
-}
-
-#news .btn-sm {
-    margin-bottom: 20px;
 }
 
 /* #subscribe */
