@@ -2,7 +2,13 @@ $(function () {
     const scroll = $(document.documentElement);
     const height = $("#intro").innerHeight() - 1;
 
-    $(".scroll").on('click', function () {
+    if (height < scroll.scrollTop()) {
+        $("#top").addClass("visible");
+    }
+
+
+    $(".scroll").on('click', function (e) {
+        e.preventDefault();
         const scroll_to = $(this).attr("href");
         const top = $(scroll_to).offset().top;
         scroll.animate({
@@ -14,8 +20,9 @@ $(function () {
             else {
                 $("#top").removeClass("visible");
             }
-        };
-    };
+        });
+    });
+
     $(window).on('scroll', function () {
         if (height < scroll.scrollTop()) {
             $("#top").addClass("visible");
@@ -23,13 +30,8 @@ $(function () {
         else {
             $("#top").removeClass("visible");
         }
-    };
-    $(document).on('ready', function () {
-        if (height < scroll.scrollTop()) {
-            $("#top").addClass("visible");
-        }
-        else {
-            $("#top").removeClass("visible");
-        }
-    };
+    });
+
+
+
 });

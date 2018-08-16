@@ -187,7 +187,7 @@ blockquote footer {
 .btn-sm {
     line-height: 1;
     border: 0;
-    box-shadow: 0 !important;
+    box-shadow: none !important;
     outline: 0 !important;
     border-radius: 2px;
     text-transform: uppercase;
@@ -416,9 +416,18 @@ blockquote footer {
     color: rgba(206, 206, 206, .68);
 }
 
-#intro a {
+#intro .scroll {
     position: absolute;
-    bottom: 35px;
+    bottom: 36px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 35px;
+    height: 35px;
+    line-height: 40px;
+}
+
+#intro .scroll .fa-light::after {
+    top: 20%;
 }
 
 /* #about-studio */
@@ -815,13 +824,18 @@ blockquote footer {
 }
 
 /* #news*/
+#news {
+    padding-bottom: 120px;
+}
+
 #news .news-title {
-    margin-bottom: 80px;
     padding: 0 40px;
+    overflow: hidden;
 }
 
 #news .latest-news {
     letter-spacing: .5em;
+    float: left;
 }
 
 #news .latest-news-more {
@@ -831,16 +845,18 @@ blockquote footer {
     letter-spacing: .4em;
     color: #999999;
     text-transform: uppercase;
+    padding-top: 7px;
 }
 
 #news .photo-article {
-    margin: 0 13px 30px 0;
+    margin: 80px 13px 30px 0;
 }
 
 #news .photo-article img:hover,
 #news .photo-article img:active,
 #news .photo-article img:focus {
     filter: grayscale(0%);
+    transition: filter .3s;
 }
 
 #news .article-text h3 {
@@ -850,7 +866,7 @@ blockquote footer {
     color: #777777;
 }
 
-#news .article-text p:first-of-type {
+#news .article-text span {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 11px;
     letter-spacing: .4em;
@@ -858,12 +874,16 @@ blockquote footer {
     text-transform: uppercase;
 }
 
-#news .article-text p:last-child {
+#news .article-text p {
     margin-top: 25px;
     margin-bottom: 30px;
     font-size: 15px;
     font-weight: 300;
     line-height: 26px;
+}
+
+#news .btn-sm {
+    margin-bottom: 20px;
 }
 
 /* #subscribe */
@@ -989,6 +1009,11 @@ blockquote footer {
 
 #contacts .col-custom .fa-info-circle {
     line-height: 36px;
+}
+
+#contacts .col-custom p {
+    font-size: 11px;
+    font-family: 'open_sans', dosis, sans-serif;
 }
 
 #contacts input,
@@ -1119,6 +1144,7 @@ blockquote footer {
     color: #999999;
     padding-top: 15px;
 }
+
 /* #top (go to first screen) */
 #top {
     position: fixed;
@@ -1148,6 +1174,7 @@ blockquote footer {
     -o-transform: translateY(0%);
     transform: translateY(0%);
 }
+
 #top:hover {
     opacity: 1;
 }
