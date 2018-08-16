@@ -1133,7 +1133,7 @@ blockquote footer {
 #footer .copy {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 12px;
-    letter-spacing: 0.5em;
+    letter-spacing: .5em;
     color: #111111;
     text-transform: uppercase;
 }
@@ -1142,10 +1142,11 @@ blockquote footer {
     font-family: 'open_sans', sans-serif;
     font-size: 11px;
     color: #999999;
-    padding-top: 15px;
+    padding-top: 14px;
 }
 
 /* #top (go to first screen) */
+
 #top {
     position: fixed;
     bottom: 10px;
