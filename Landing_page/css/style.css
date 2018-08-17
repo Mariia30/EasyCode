@@ -1,3 +1,15 @@
+/* N.B. */
+/*
+смотрим   Применяем
+          max-width
+320       480
+480       578
+578       768
+768       992
+992       1200
+1200      ----
+*/
+
 /* RESET */
 
 * {
@@ -348,7 +360,6 @@ blockquote footer {
 /* CUSTOM */
 
 /* #header */
-
 #header {
     position: absolute;
     width: 100%;
@@ -406,6 +417,7 @@ blockquote footer {
 #intro .title {
     font-size: 30px;
     letter-spacing: 1.7em;
+    padding-left: 1.7em;
     color: rgba(254, 254, 254, .9);
     margin-bottom: 36px;
 }
@@ -428,6 +440,35 @@ blockquote footer {
 
 #intro .scroll .fa-light::after {
     top: 20%;
+}
+
+@media (max-width: 992px) {
+    #intro .title {
+        letter-spacing: 1em;
+        padding-left: 1em;
+    }
+}
+
+@media (max-width: 768px) {
+    #intro .title {
+        letter-spacing: .5em;
+        padding-left: .5em;
+    }
+}
+
+@media (max-width: 578px) {
+    #intro .moto {
+        padding-left: .5em;
+        padding-right: .5em;
+        line-height: 1.5;
+    }
+}
+
+@media (max-width: 480px) {
+    #intro .title {
+        letter-spacing: .1em;
+        padding-left: .1em;
+    }
 }
 
 /* #about-studio */
@@ -928,7 +969,7 @@ blockquote footer {
     font-size: 11px;
 }
 
-    /* #contacts */
+/* #contacts */
 #contacts {
     padding: 0 0 140px;
 }
@@ -1001,6 +1042,7 @@ blockquote footer {
 #contacts .col-custom i {
     font-size: 12px;
 }
+
 #contacts .col-custom:nth-child(1) {
     padding-right: 5px;
 }
