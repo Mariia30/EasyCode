@@ -969,7 +969,8 @@ blockquote footer {
 #contacts .address a,
 #contacts .email a {
     display: block;
-    font-family: dosis, 'open_sans', sans-serif;
+    font-family: 'open_sans';
+    font-weight: 300;
     font-size: 15px;
     color: #444444;
     margin-top: 13px;
