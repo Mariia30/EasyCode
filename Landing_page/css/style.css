@@ -394,7 +394,11 @@ blockquote footer {
 .link-menu a:hover {
     color: rgba(255, 255, 255, 1);
 }
-
+#header .navbar-toggle {
+    margin-top: 20px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+}
 /* #intro */
 
 #intro {
