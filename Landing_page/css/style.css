@@ -924,7 +924,11 @@ blockquote footer {
     color: #aaaaaa;
 }
 
-/* #contacts */
+#subscribe i {
+    font-size: 11px;
+}
+
+    /* #contacts */
 #contacts {
     padding: 0 0 140px;
 }
@@ -993,6 +997,9 @@ blockquote footer {
     float: left;
 }
 
+#contacts .col-custom i {
+    font-size: 12px;
+}
 #contacts .col-custom:nth-child(1) {
     padding-right: 5px;
 }
@@ -1011,7 +1018,7 @@ blockquote footer {
 
 #contacts .col-custom p {
     font-size: 11px;
-    font-family: 'open_sans', dosis, sans-serif;
+    font-family: 'open_sans';
 }
 
 #contacts input,
@@ -1113,13 +1120,13 @@ blockquote footer {
 
 #footer .fa-box {
     text-align: center;
-    letter-spacing: 13px;
+    letter-spacing: 9px;
 }
 
 #footer .fa-light::before,
 #footer .fa-bordered::before,
 #footer .fa-dark::before {
-    padding-left: 13px;
+    padding-left: 9px;
 }
 
 #footer .footer-box {
