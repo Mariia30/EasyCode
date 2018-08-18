@@ -750,6 +750,16 @@ blockquote footer {
     font-weight: 300;
     line-height: 26px;
 }
+#services .nav-toggle {
+    margin-top: 20px;
+    margin-right: 29px;
+    margin-bottom: 20px;
+    border:1px solid #ffffff;
+}
+
+#services .nav-toggle .icon-bar {
+    background-color: #ffffff;
+}
 @media (max-width: 992px) {
 #services .nav a {
     letter-spacing: .2em;
@@ -758,9 +768,27 @@ blockquote footer {
         line-height: 30px;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #services .col-sm-4>p {
         padding-top: 40px;
+    }
+    #services .navbar-collapse {
+        background-color: rgba(17, 17, 17, .9);
+        color: #ffffff;
+        font-size: 16px;
+        padding: 1em;
+        margin: 45px 0 0 ;
+        text-align: right;
+    }
+    #services .navbar-collapse li {
+        width:100%;
+        padding-right: 13px;
+    }
+    #services .navbar-collapse i {
+        display: inline-block;
+        font-size: 30px;
+        margin-bottom: 20px;
+        padding-right: 10px;
     }
 }
 /* #lets-talk */
