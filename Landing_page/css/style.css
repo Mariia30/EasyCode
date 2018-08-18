@@ -394,10 +394,30 @@ blockquote footer {
 .link-menu a:hover {
     color: rgba(255, 255, 255, 1);
 }
+
 #header .navbar-toggle {
     margin-top: 20px;
     margin-right: 29px;
     margin-bottom: 20px;
+    border:1px solid #ffffff;
+}
+
+#header .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    #header .link-menu {
+        background-color: rgba(17, 17, 17, .9);
+        font-size: 16px;
+        padding: 1em;
+        margin: 45px 0 0 ;
+        text-align: right;
+    }
+    #header .link-menu li {
+        width:100%;
+        padding-right: 13px;
+    }
 }
 /* #intro */
 
@@ -628,6 +648,67 @@ blockquote footer {
     width: 80%;
 }
 
+@media (max-width: 1199px) {
+    #about-studio .about-photo {
+        display: inline-block;
+    }
+    #about-studio .row-second {
+        text-align: center;
+    }
+    #about-studio .skills {
+        padding: 20px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 992px) {
+    #about-studio .about-photo {
+        display: inline-block;
+    }
+    #about-studio .row-second {
+        text-align: center;
+    }
+    #about-studio .skills {
+        text-align: center;
+        padding: 40px;
+    }
+    #about-studio .progress-title {
+         text-align: left;
+     }
+    #about-studio .col-md-4 {
+        margin-bottom: 10px;
+    }
+}
+@media (max-width: 768px) {
+    #about-studio .about-photo {
+        display: inline-block;
+    }
+    #about-studio .row-second {
+        text-align: center;
+    }
+    #about-studio .skills {
+        text-align: center;
+        padding: 40px;
+    }
+    #about-studio .progress-title {
+        text-align: left;
+    }
+    #about-studio .col-md-4 {
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    #about-studio .title {
+        margin-bottom: 50px;
+    }
+    #about-studio blockquote {
+        line-height: 30px;
+    }
+    #about-studio .person {
+        margin: 70px 0 0;
+    }
+}
 /* #services */
 
 #services .title {
@@ -669,7 +750,19 @@ blockquote footer {
     font-weight: 300;
     line-height: 26px;
 }
-
+@media (max-width: 992px) {
+#services .nav a {
+    letter-spacing: .2em;
+}
+    #services blockquote {
+        line-height: 30px;
+    }
+}
+@media (max-width: 768px) {
+    #services .col-sm-4>p {
+        padding-top: 40px;
+    }
+}
 /* #lets-talk */
 
 #lets-talk .box-talk p {
@@ -1101,7 +1194,11 @@ blockquote footer {
 #contacts textarea:active {
     color: #111;
 }
-
+@media (max-width: 992px){
+#contacts .col-sm-4 {
+    padding: 0 30px;
+}
+}
 /* #map */
 #map {
     position: relative;
