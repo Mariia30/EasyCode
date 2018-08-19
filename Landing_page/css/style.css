@@ -794,7 +794,7 @@ blockquote footer {
     }
 
     #services .title {
-        margin-bottom: 60px;
+        margin-bottom: 10px;
     }
 
     #services .navbar-toggle {
@@ -803,11 +803,11 @@ blockquote footer {
         padding: 1em;
         float: none;
         z-index: 1;
+        margin-left: calc(100% - 56px);
     }
 
     #services .navbar-collapse li {
         width: 100%;
-        padding-right: 13px;
     }
 
     #services .navbar-collapse i {
@@ -818,7 +818,7 @@ blockquote footer {
     }
 
     #services .nav {
-        text-align: left;
+        text-align: right;
     }
 }
 
@@ -844,21 +844,23 @@ blockquote footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #lets-talk img {
         margin-top: -2px;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #lets-talk .text-right {
         margin-top: 30px;
+        text-align: center;
     }
 }
 
 @media (max-width: 480px) {
     #lets-talk .title {
         text-align: center;
+        letter-spacing: .2em;
     }
 }
 
@@ -961,15 +963,9 @@ blockquote footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #portfolio .portfolio-box {
         width: 100%;
-    }
-}
-
-@media (max-width: 578px) {
-    #portfolio .portfolio-box {
-        padding-bottom: 35px;
     }
 
     #portfolio .navbar-toggle {
@@ -983,7 +979,7 @@ blockquote footer {
         width: 100%;
         text-align: right;
         letter-spacing: .2em;
-        padding: 0 0 30px;
+        padding: 0 0 15px;
     }
 
     #portfolio .navbar-collapse i {
@@ -996,6 +992,12 @@ blockquote footer {
     #portfolio .nav {
         text-align: right;
         width: 100%;
+    }
+}
+
+@media (max-width: 578px) {
+    #portfolio .portfolio-box {
+        padding-bottom: 35px;
     }
 }
 
@@ -1157,7 +1159,7 @@ blockquote footer {
     line-height: 26px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #news .latest-news {
         padding-bottom: 20px;
     }
@@ -1216,7 +1218,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 421px) {
     #subscribe button {
         margin-top: 20px;
     }
@@ -1405,6 +1407,12 @@ blockquote footer {
     position: relative;
     left: 50%;
     top: 167px;
+}
+
+@media (max-width: 480px) {
+    #map .promo {
+        letter-spacing: .1em;
+    }
 }
 
 /* #footer */
