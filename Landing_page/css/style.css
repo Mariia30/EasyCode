@@ -1384,9 +1384,6 @@ blockquote footer {
     #contacts .contact-item {
         margin-bottom: 30px;
     }
-}
-
-@media (max-width: 577px) {
     #contacts .col-custom {
         width: 100%;
     }
@@ -1395,14 +1392,14 @@ blockquote footer {
         margin-bottom: 10px;
     }
 
-    #contacts .col-custom:nth-child(1) {
-        padding-right: 0;
+    #contacts .col-custom:nth-child(n) {
+        padding: 0;
     }
-
-    #contacts .col-custom:nth-child(2) {
-        padding-left: 0;
+    #contacts .col-custom button {
+        float: right;
     }
 }
+
 
 /* #map */
 #map {
