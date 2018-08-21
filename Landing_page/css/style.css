@@ -513,11 +513,6 @@ blockquote footer {
     line-height: 26px;
 }
 
-.about-photo img {
-    height: 450px;
-    width: 370px;
-}
-
 .about-photo {
     overflow: hidden;
 }
@@ -1121,6 +1116,7 @@ blockquote footer {
         width: 70%;
     }
 }
+
 @media (max-width: 479px) {
     #slider .title {
         line-height: 1.5;
@@ -1128,6 +1124,7 @@ blockquote footer {
         margin-top: 13px;
     }
 }
+
 /* #news*/
 #news {
     padding-bottom: 120px;
@@ -1189,6 +1186,12 @@ blockquote footer {
     line-height: 26px;
 }
 
+@media (max-width: 991px) {
+    #news .btn-sm {
+        float: right;
+    }
+}
+
 @media (max-width: 479px) {
     #news .latest-news {
         padding-bottom: 20px;
@@ -1244,8 +1247,20 @@ blockquote footer {
 
 @media (max-width: 767px) {
     #subscribe .title {
-        letter-spacing: .2em;
+        letter-spacing: .1em;
         line-height: 1.5;
+        margin-top: -7px;
+        margin-bottom: 10px;
+    }
+
+    #subscribe input [type="email"] {
+        display: block;
+        width: 100%;
+    }
+
+    #subscribe button {
+        margin: 10px auto;
+        display: block;
     }
 }
 
@@ -1367,7 +1382,7 @@ blockquote footer {
     }
 
     #contacts .contact-item {
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
 }
 
