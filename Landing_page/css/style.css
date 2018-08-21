@@ -851,6 +851,7 @@ blockquote footer {
         max-width: 65%;
         display: block;
     }
+
     #lets-talk {
         text-align: center;
     }
@@ -864,11 +865,13 @@ blockquote footer {
         margin-bottom: -7px;
     }
 }
+
 @media (max-width: 479px) {
     #lets-talk img {
         display: none;
     }
 }
+
 /* #portfolio */
 #portfolio {
     padding-top: 0;
@@ -1029,6 +1032,7 @@ blockquote footer {
 #like-us .like-and-start {
     text-align: center;
 }
+
 @media (max-width: 479px) {
     #like-us .start-project {
         line-height: 1.75;
@@ -1036,6 +1040,7 @@ blockquote footer {
         margin-bottom: 17px;
     }
 }
+
 /* #choose-us */
 #choose-us .title-benefit i {
     display: block;
@@ -1110,8 +1115,18 @@ blockquote footer {
 #slider .item-content blockquote footer {
     color: rgba(255, 255, 255, .3);
 }
-@media (max-width: ) {
-    
+
+@media (max-width: 991px) {
+    #slider .item-content {
+        width: 70%;
+    }
+}
+@media (max-width: 479px) {
+    #slider .title {
+        line-height: 1.5;
+        margin-bottom: 33px;
+        margin-top: 13px;
+    }
 }
 /* #news*/
 #news {
@@ -1230,6 +1245,7 @@ blockquote footer {
 @media (max-width: 767px) {
     #subscribe .title {
         letter-spacing: .2em;
+        line-height: 1.5;
     }
 }
 
