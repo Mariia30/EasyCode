@@ -864,7 +864,11 @@ blockquote footer {
         margin-bottom: -7px;
     }
 }
-
+@media (max-width: 479px) {
+    #lets-talk img {
+        display: none;
+    }
+}
 /* #portfolio */
 #portfolio {
     padding-top: 0;
