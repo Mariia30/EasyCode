@@ -247,7 +247,7 @@ blockquote footer {
 
 .btn-grey {
     color: #777777;
-    background: rgba(0, 0, 0, 1);
+    background: rgba(0, 0, 0, .1);
 }
 
 .btn-grey:hover,
@@ -468,21 +468,21 @@ blockquote footer {
     top: 20%;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #intro .title {
         letter-spacing: 1em;
         padding-left: 1em;
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #intro .title {
         letter-spacing: .5em;
         padding-left: .5em;
     }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 577px) {
     #intro .moto {
         padding-left: .5em;
         padding-right: .5em;
@@ -490,7 +490,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #intro .title {
         letter-spacing: .1em;
         padding-left: .1em;
@@ -665,7 +665,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #about-studio .about-photo {
         display: inline-block;
     }
@@ -688,7 +688,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #about-studio .about-photo {
         display: inline-block;
     }
@@ -711,7 +711,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #about-studio .title {
         margin-bottom: 50px;
     }
@@ -778,7 +778,7 @@ blockquote footer {
     background-color: #111111;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #services .nav a {
         letter-spacing: .2em;
     }
@@ -838,15 +838,9 @@ blockquote footer {
     margin-bottom: -97px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #lets-talk img {
         margin-top: -72px;
-    }
-}
-
-@media (max-width: 767px) {
-    #lets-talk img {
-        margin-top: -2px;
     }
 }
 
@@ -857,7 +851,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #lets-talk .title {
         text-align: center;
         letter-spacing: .2em;
@@ -957,7 +951,7 @@ blockquote footer {
     background-color: #111111;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #portfolio .portfolio-box p {
         margin: 0 20px;
     }
@@ -995,7 +989,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 577px) {
     #portfolio .portfolio-box {
         padding-bottom: 35px;
     }
@@ -1144,7 +1138,7 @@ blockquote footer {
     color: #777777;
 }
 
-#news .article-text span {
+#news .news-box {
     font-family: dosis, 'open_sans', sans-serif;
     font-size: 11px;
     letter-spacing: .4em;
@@ -1212,7 +1206,7 @@ blockquote footer {
     font-size: 11px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     #subscribe .title {
         letter-spacing: .2em;
     }
@@ -1323,7 +1317,7 @@ blockquote footer {
     font-size: 12px;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     #contacts .col-sm-4 {
         padding: 0 30px;
     }
@@ -1340,7 +1334,7 @@ blockquote footer {
     }
 }
 
-@media (max-width: 578px) {
+@media (max-width: 577px) {
     #contacts .col-custom {
         width: 100%;
     }
@@ -1409,7 +1403,7 @@ blockquote footer {
     top: 167px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 479px) {
     #map .promo {
         letter-spacing: .1em;
     }
