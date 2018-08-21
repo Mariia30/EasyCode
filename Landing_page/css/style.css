@@ -838,23 +838,30 @@ blockquote footer {
     margin-bottom: -97px;
 }
 
+@media (max-width: 1199px) {
+    #lets-talk img {
+        margin-top: -65px;
+        margin-bottom: -75px;
+    }
+}
+
 @media (max-width: 991px) {
     #lets-talk img {
-        margin-top: -72px;
+        margin: 70px auto -11px;
+        max-width: 65%;
+        display: block;
     }
-}
-
-@media (max-width: 767px) {
-    #lets-talk .text-right {
-        margin-top: 30px;
+    #lets-talk {
         text-align: center;
     }
 }
 
-@media (max-width: 479px) {
+@media (max-width: 577px) {
     #lets-talk .title {
-        text-align: center;
         letter-spacing: .2em;
+        line-height: 1.75;
+        margin-top: -7px;
+        margin-bottom: -7px;
     }
 }
 
