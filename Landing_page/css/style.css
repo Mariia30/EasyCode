@@ -408,7 +408,6 @@ blockquote footer {
 
 @media (max-width: 767px) {
     #header .link-menu {
-        background-color: rgba(17, 17, 17, .9);
         font-size: 16px;
         padding: 1em;
         margin: 45px 0 0;
@@ -1384,6 +1383,7 @@ blockquote footer {
     #contacts .contact-item {
         margin-bottom: 30px;
     }
+
     #contacts .col-custom {
         width: 100%;
     }
@@ -1395,11 +1395,11 @@ blockquote footer {
     #contacts .col-custom:nth-child(n) {
         padding: 0;
     }
+
     #contacts .col-custom button {
         float: right;
     }
 }
-
 
 /* #map */
 #map {
