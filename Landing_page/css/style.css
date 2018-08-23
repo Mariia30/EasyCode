@@ -792,7 +792,6 @@ blockquote footer {
     }
 
     #services .navbar-toggle {
-        background-color: rgba(11, 11, 11, .4);
         font-size: 16px;
         padding: 1em;
         float: none;
@@ -971,7 +970,6 @@ blockquote footer {
     }
 
     #portfolio .navbar-toggle {
-        background-color: rgba(11, 11, 11, .4);
         font-size: 16px;
         padding: 1em;
         z-index: 1;
