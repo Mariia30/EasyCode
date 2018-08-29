@@ -1,0 +1,39 @@
+body {
+  margin: 50px;
+  font-size: 32px;
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none; }
+  .btn-green {
+    background-color: #060; }
+  .btn-red {
+    background-color: #900; }
+  .btn-blue {
+    background-color: #007; }
+
+.container .row .col-lg-3, .container .row .col-lg-4 {
+  height: 100px;
+  margin: 1%;
+  float: left;
+  background: #900; }
+
+.container {
+  max-width: 900px;
+  margin: 20px auto; }
+  .container .row {
+    background: #cccccc; }
+    .container .row:before, .container .row:after {
+      content: '';
+      display: table;
+      clear: both; }
+    .container .row .col-lg-3 {
+      width: 23%; }
+      .bg-blue .container .row .col-lg-3 {
+        background: #007; }
+    .container .row .col-lg-4 {
+      width: 20%; }
