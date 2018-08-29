@@ -1,0 +1,56 @@
+$red: #900;
+$blue: #007;
+$green: #060;
+
+body {
+  margin: 50px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  margin: 0 1rem;
+  padding: 1rem 2rem;
+  color: white;
+  text-decoration: none;
+
+  &-green {
+    background-color: $green;
+  }
+  &-red {
+    background-color: $red;
+  }
+
+  &-blue {
+    background-color: $blue;
+  }
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+
+  .row {
+    background: #cccccc;
+
+    &:before,
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .col-lg-3 {
+      margin: 1%;
+      width: 23%;
+      height: 100px;
+      float: left;
+      background: $red;
+
+      .bg-blue & {
+        background: $blue;
+      }
+    }
+  }
+}
