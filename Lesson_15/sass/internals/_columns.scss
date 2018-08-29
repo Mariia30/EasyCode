@@ -1,0 +1,37 @@
+%container {
+  height: 100px;
+  margin: 1%;
+  float: left;
+  background: $red;
+}
+
+.container {
+  max-width: 900px;
+  margin: 20px auto;
+
+  .row {
+    background: #cccccc;
+
+    &:before,
+    &:after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    .col-lg {
+      &-3 {
+        @extend %container;
+        width: 23%;
+
+        .bg-blue & {
+          background: $blue;
+        }
+      }
+      &-4 {
+        @extend %container;
+        width: 20%;
+      }
+    }
+  }
+}
